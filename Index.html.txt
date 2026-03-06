@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maize & Groundnut Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+        a.phone-link {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maize & Groundnut Business</h1>
+        <p>Contact us at <a class="phone-link" href="tel:08108377595">08108377595</a></p>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <h2>Maize</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Maize_cob.jpg" alt="Maize">
+        </div>
+        <div class="product">
+            <h2>Groundnut</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Peanut_Shells.jpg" alt="Groundnut">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Maize & Groundnut Business. Call us: <a class="phone-link" href="tel:08108377595">08108377595</a>
+    </footer>
+</body>
+</html>
